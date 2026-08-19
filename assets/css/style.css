@@ -34,7 +34,309 @@ a {
 .serif {
   font-family: 'Playfair Display',serif
 }
+/* ==============================
+   Pricing Section
+================================ */
 
+.pricing-section {
+    background: #f8f5f0;
+}
+
+.pricing-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 18px;
+    background: #ffffff;
+    border: 1px solid #e7ddd2;
+    border-radius: 50px;
+    color: #9b7653;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.pricing-title {
+    font-size: clamp(34px, 5vw, 52px);
+    font-weight: 700;
+    color: #222222;
+}
+
+.pricing-description {
+    max-width: 650px;
+    margin: 15px auto 0;
+    color: #777777;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* Table */
+
+.pricing-table-wrapper {
+    background: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07);
+}
+
+.pricing-table {
+    min-width: 850px;
+}
+
+.pricing-table thead th {
+    background: #25211e;
+    color: #ffffff;
+    padding: 24px 22px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-table thead th:first-child {
+    text-align: left;
+    width: 46%;
+}
+
+.pricing-table thead th span {
+    display: block;
+    color: #cfc8c2;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.pricing-table tbody td {
+    padding: 26px 22px;
+    border-color: #eee8e2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pricing-table tbody td:first-child {
+    text-align: left;
+}
+
+.package-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.package-icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    border-radius: 50%;
+    background: #f3ebe3;
+    color: #9b7653;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.package-info h5 {
+    color: #222222;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.package-info p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.price {
+    color: #9b7653;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.featured-row {
+    background: #fdf9f4;
+}
+
+.popular-label {
+    display: inline-block;
+    background: #9b7653;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+
+/* Add-ons */
+
+.addons-box {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+.section-mini-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section-mini-heading span {
+    color: #9b7653;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-mini-heading h3 {
+    color: #222222;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 4px 0 0;
+}
+
+.heading-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #f3ebe3;
+    color: #9b7653;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.addon-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 17px 0;
+    border-bottom: 1px solid #eee8e2;
+    color: #555555;
+}
+
+.addon-item span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addon-item i {
+    color: #9b7653;
+}
+
+.addon-item strong {
+    color: #222222;
+    white-space: nowrap;
+}
+
+
+/* Membership */
+
+.membership-box {
+    background: #25211e;
+    border-radius: 24px;
+    padding: 38px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.membership-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #9b7653;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.membership-small {
+    color: #d8c2ae;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.membership-box h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 8px 0 16px;
+}
+
+.membership-price {
+    color: #d8b795;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.membership-price span {
+    color: #c9c3bd;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.membership-box p {
+    color: #d3cfcb;
+    line-height: 1.8;
+}
+
+.membership-box li {
+    margin-bottom: 12px;
+    color: #eeeeee;
+}
+
+.membership-box li i {
+    color: #d8b795;
+    margin-right: 9px;
+}
+
+.membership-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 14px 25px;
+    background: #ffffff;
+    color: #25211e;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.membership-btn:hover {
+    background: #9b7653;
+    color: #ffffff;
+}
+
+
+/* Note */
+
+.pricing-note {
+    color: #777777;
+    font-size: 13px;
+}
+
+.pricing-note i {
+    color: #9b7653;
+}
 .section-pad {
   padding: 90px 0
 }
