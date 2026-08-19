@@ -1,7 +1,7 @@
-SALON BARK - CLEAN MULTI-PAGE WEBSITE
+SB Service - CLEAN MULTI-PAGE WEBSITE
 
 Pages:
-- index.html
+- /
 - about.html
 - services.html
 - boutique.html
@@ -23,4 +23,4 @@ Code cleanup performed:
 - Existing layout, navigation, page content, links and visual styling preserved
 - Local file references checked
 
-Open index.html in a browser to preview the site.
+Open / in a browser to preview the site.
